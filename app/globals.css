@@ -106,7 +106,7 @@ body {
 .contactInfo ul li span {
   color: #fff;
   font-weight: 300;
-  font-size: 0.8em;
+  font-size: 1.0em;
 }
 
 .contactInfo ul li a {
@@ -236,9 +236,49 @@ p {
 }
 
 @media (max-width: 600px) {
-  .contactInfo {
+  .container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+  .hoja{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    max-width: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .left_Side{
+    
+    max-width: 600px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .right_Side{
+    max-width: 600px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .contactInfo ul li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
+    
   }
   .about .box {
     flex-direction: column;
