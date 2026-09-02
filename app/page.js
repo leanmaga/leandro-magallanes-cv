@@ -2,12 +2,10 @@ import DarkModeToggle from "./light/page";
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <main className="app-root">
       <DarkModeToggle />
-    </div>
+    </main>
   );
 };
 
 export default Home;
-
-
